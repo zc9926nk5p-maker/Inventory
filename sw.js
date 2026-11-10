@@ -1,5 +1,5 @@
 // Offline cache: serves the saved copy instantly, refreshes it in the background when there's signal.
-const CACHE = 'wat-inventory-v2';
+const CACHE = 'wat-inventory-v3';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
